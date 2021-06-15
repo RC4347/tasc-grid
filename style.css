@@ -21,7 +21,7 @@
 
 .section__arrows{
     position: absolute;
-    top: -40.7rem;
+    top: -35.8rem;
     left: -32rem;
 }
 
@@ -64,11 +64,11 @@
 .section__input__block {
     border: 2px solid white;
     border-radius: 40px;
-    padding: 20px 0 20px 30px;
+    padding-left: 30px;
     background-color: #fff0;
     display: inline-flex;
     flex-direction: row;
-    height: 65px;
+    height: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
