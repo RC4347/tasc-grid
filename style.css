@@ -347,6 +347,9 @@
     .card__body{
         width: 310px!important;
     }
+    ..card__testimonials{
+        
+    }
 }
 
 .uk-dotnav > .uk-active > *{
