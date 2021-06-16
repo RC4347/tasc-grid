@@ -133,6 +133,7 @@
     justify-content: center;
     align-items: center;
 }
+/* !Need mobile */
 .section__text span{
     font-size: 20px;
     color: var(--blue);
@@ -202,11 +203,9 @@
 .card:hover{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
-.card p{
-    font-size: 14px;
-}
 .card__title{
     font-weight: 900;
+    font-size: 22px!important;
 }
 .fw-900{
     font-weight: 900;
@@ -270,7 +269,10 @@
 
 .section__gradient{
     background: linear-gradient(30deg, #45DB33, #00BFFF);
+}
 
+.section__gray{
+    background-color: #F2F7F9;
 }
 
 .big-arrow{
@@ -322,6 +324,58 @@
     .link{
         font-size: var(--small);
     }
+    .section__text span{
+        font-size: 14px;
+    }
+    .section__text h1{
+        font-size: 25px;
+    }
+    .custom-margin-top{
+        margin-top: 10px!important;
+    }
+    .card__title{
+        font-size: 20px!important;
+    }
+    .text-meta{
+        font-size: 12px!important;
+    }
+    .card{
+        padding: 40px 20px 40px 20px !important;
+    }
+}
+@media (max-width: 640px){
+    .card__body{
+        width: 310px!important;
+    }
+}
+
+.uk-dotnav > .uk-active > *{
+    border-color: transparent;
+    background-color: #5795AD!important;
+}
+
+.uk-dotnav > * > *{
+    border: none!important;
+    background-color: #fff!important;
+    width: 13px!important;
+    height: 13px!important;
+
+}
+
+
+.custom-margin-top{
+    margin-top: 40px;
+}
+
+.text-meta{
+    color: var(--blue)!important;
+    font-size: 14px!important;
+    opacity: 0.5;
+}
+
+.text-black{
+    color: var(--black);
+    font-size: 14px;
 }
 
 .line div:nth-child(1){
@@ -351,4 +405,5 @@
     --gray: #F2F7F9;
     --yellow: #FFE100;
     --white: #fff;
+    --black: #000;
 }
