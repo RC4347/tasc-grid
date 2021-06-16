@@ -15,10 +15,19 @@
 </head>
 <body>
     <header class="header">
-        <div class="uk-container">
+        <div class="uk-container uk-padding-large uk-padding-remove-top uk-padding-remove-bottom">
             <nav class="uk-navbar" uk-navbar>
                 <div class="uk-navbar-left">
-                    <div class="uk-navbar-item" style="position: absolute;left: -125px;">
+                    <div class="uk-navbar-item uk-visible@l uk-position-center-left-out">
+                        <a  href="javascript:void(0)"
+                            class="uk-flex line"
+                        >
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </a>
+                    </div>
+                    <div class="uk-navbar-item uk-hidden@l uk-visible uk-padding-remove-left">
                         <a  href="javascript:void(0)"
                             class="uk-flex line"
                         >
@@ -34,8 +43,8 @@
                         <img width="88.39px" height="24.58px" src="images/Logo.svg" alt="Logo">
                     </a>
                 </div> <!-- logo -->
-                <div class="uk-navbar-center">
-                    <ul class="uk-navbar-nav uk-visible@m uk-navbar" uk-navbar>
+                <div class="uk-navbar-center uk-visible@l">
+                    <ul class="uk-navbar-nav uk-navbar" uk-navbar>
                         <li>
                             <a  class="text-blue navbar-link"
                                 href="javascript:void(0);"
@@ -132,7 +141,7 @@
         </div>
     </header> <!-- navbar -->
     <section class="uk-section section section__blue">
-        <div class="uk-container" style="position: relative;">
+        <div class="uk-container uk-padding-large" style="position: relative;">
             <div class="uk-grid uk-grid-large" 
                 style="position: relative;z-index: 9;"
             >
@@ -166,12 +175,18 @@
                 </div>
             </div>
             <div class="section__arrows">
-                <img src="./images/arrows/arrows.png" alt="arrows">
+                <img    src="./images/arrows/heading-arrows.svg" 
+                        alt="arrows"
+                >
+                
+                <img    src="./images/arrows/heading-arrow.svg" 
+                        alt="arrows"
+                >
             </div>
         </div>
     </section> <!-- heading -->
     <section class="uk-section section__white uk-margin-large-top">
-        <div class="uk-container uk-container-large" style="position: relative;">
+        <div class="uk-container uk-padding-large" style="position: relative;">
             <div class="section__block">
                 <div class="section__text">
                     <span>
@@ -393,7 +408,7 @@
         </div>
     </section> <!-- vacancies -->
     <section class="uk-section seciton__white section uk-section__large">
-        <div class="uk-container uk-container-large" style="position: relative;">
+        <div class="uk-container uk-padding-large" style="position: relative;">
             <div class="testimonials__arrows">
                 <img src="images/arrows/test.png" alt="arrows">
             </div>
@@ -442,7 +457,7 @@
         </div>
     </section> <!-- testimonials -->
     <section class="uk-section section section__blue">
-        <div class="uk-container" style="position: relative;">
+        <div class="uk-container uk-padding-large" style="position: relative;">
             <div class="arrows-we">
                 <img src="images/arrows/arrows-we.png" alt="arrow">
             </div>
@@ -473,7 +488,7 @@
         </div>
     </section> <!-- well' help sharpen your skillset -->
     <section class="uk-section section section__gradient uk-section-large">
-        <div class="uk-container uk-container-large" style="position: relative;z-index: 9;">
+        <div class="uk-container uk-padding-large" style="position: relative;z-index: 9;">
             <div class="uk-grid uk-grid-large uk-child-width-1-2">
                 <div class="section__text" style="margin-left: auto;padding: 70px;"
                 >
