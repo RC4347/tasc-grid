@@ -297,6 +297,10 @@
     transform: scaleY(-1) rotate(90deg);
 }
 
+.heading__link{
+    font-size: 16px;
+}
+
 
 @media (max-width: 1460px){
     .line__block{
@@ -327,9 +331,36 @@
     .section__text span{
         font-size: 14px;
     }
+    
+    .section__text p{
+        font-size: 14px;
+    }
+    
+    .section__text a{
+        font-size: 14px;
+    }
+    
+    .section__text a > img{
+        width: 14.16px;
+        height: 12.26px;
+    }
+    .heading__link > img{
+        width: 14.16px;
+        height: 12.26px;
+    }
+    .heading__link{
+        font-size: 14px;
+    }
+    
     .section__text h1{
         font-size: 25px;
     }
+
+    .text-yellow{
+        font-size: 30px!important;
+
+    }
+
     .custom-margin-top{
         margin-top: 10px!important;
     }
@@ -366,6 +397,15 @@
     }
     .card__testimonials p{
         font-size: 14px;
+    }
+    .breadFace{
+        position: absolute;
+        right: -90px;
+        opacity: 0.6;
+        z-index: -1;
+        height: 490px;
+        width: 380px !important;
+        top: -30px;
     }
 }
 
