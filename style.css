@@ -277,9 +277,17 @@
 
 .line__block{
     position: absolute;
-    left: -90px;
+    left: -124px;
     
 }
+
+
+@media (max-width: 1460px){
+    .line__block{
+        left: -95px;
+    }
+}
+
 
 @media (max-width: 1360px){
     .line__block{
