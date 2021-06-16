@@ -382,6 +382,19 @@
     .custom-margin-large-top{
         margin-top: 30px!important;
     }
+    .big-arrow{
+        left: -38em;
+        top: -7em;
+        width: 1097.6px;
+        height: 950.59px;
+    }
+    .big-arrow img{
+        width: 1097.6px;
+        height: 847.59px;
+    }
+    .padding-0{
+        padding: 0!important;
+    }
     
 }
 @media (max-width: 640px){
