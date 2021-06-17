@@ -198,10 +198,10 @@
 .card{
     padding: 40px 25px 40px 50px!important;
     border-radius: 40px;
-    box-shadow: none;
+    box-shadow: none!important;
 }
 .card:hover{
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08)!important;
 }
 .card__title{
     font-weight: 900;
